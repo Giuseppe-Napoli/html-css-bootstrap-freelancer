@@ -18,6 +18,14 @@
   min-height: 70px;
 }
 
-.mt-100{
-  margin-top: 100px;
+.mt-70{
+  margin-top: 70px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.bb-sol{
+  border-bottom: 1px solid #EDEDED;
 }
