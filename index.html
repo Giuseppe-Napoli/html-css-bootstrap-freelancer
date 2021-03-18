@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap Freelancer</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css
+    ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -18,47 +20,61 @@
   <body>
     <header>
       <!-- nav fixed -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 bk-blu hg-70">
+      <div class="gn-header-fixed">
+        <nav class="navbar-default bk-blu">
+          <div class="container">
             <div class="row">
-              <div class="col-xs-10 col-sm-8">Logo</div>
-              <div class="col-xs-2 col-sm-4">Nav</div>
+              <div class="col-xs-12">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><strong>START BOOTSTRAP</strong> </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+
+      <!-- HEADER -->
+
+      <div class="gn-header-bottom bk-green gn-pd-80">
+        <div class="gn-jumbotron text-center">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src="img/avatar.svg" class="picture" alt="avatar">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <h1>Start bootstrap</h1>
+              </div>
+              <div class="col-xs-12 info-data">
+                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+              </div>
+              <div class="col-xs-12">
+                <span>graphic artist</span>
+                <span class="gn-carattere">web designer</span>
+                <span>illustrator</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- HEADER -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 bk-green text-center">
-            <div class="row">
-              <div class="col-xs-12 mt-70">
-                <img
-                  src="http://placehold.it/150x150/678226/ffffff&text=HTML.it"
-                  alt="Img di prova HTML.it"
-                />
-              </div>
-              <div class="row">
-                <div class="col-xs-12">
-                  <h1>Titolo</h1>
-                </div>
-                <div class="col-xs-12">
-                  stella
-                  <!-- protrei fare la stella cosi per inserire le due linee -->
-                  <!-- <div class="row">
-                    <div class="col-xs-3 col-xs-offset-2">-</div>
-                    <div class="col-xs-2 ">stella</div>
-                    <div class="col-xs-3">-</div>
-                  </div> -->
-                </div>
-                <div class="col-xs-12">caratteristiche</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- /HEADER -->
     </header>
 
@@ -66,122 +82,112 @@
       <!--  MAIN -->
 
       <!-- portfolio -->
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12 mt-70">
-            <h2>Portfolio</h2>
+      <section id="portfolio" class="gn-pd-80">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center mb-15">
+              <h2>Portfolio</h2>
+            </div>
+            <div class="col-xs-12 info-data text-center mb-15">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
           </div>
-          <div class="col-xs-12">
-            stella
-            <!-- protrei fare la stella cosi per inserire le due linee -->
-            <!-- <div class="row">
-                    <div class="col-xs-3 col-xs-offset-2">-</div>
-                    <div class="col-xs-2 ">stella</div>
-                    <div class="col-xs-3">-</div>
-               </div> -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 mb-30 text-center">
-            <img
-              src="http://placehold.it/250x250/678226/ffffff&text=HTML.it"
-              alt="Img di prova HTML.it"
-            />
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/cabin.png" class="img-responsive" alt="cabin">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/cake.png" class="img-responsive" alt="cake">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/circus.png" class="img-responsive" alt="circus">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/game.png" class="img-responsive" alt="game">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/safe.png" class="img-responsive" alt="safe">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 mb-30 ">
+              <img src="img/submarine.png" class="img-responsive" alt="submarine">
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- about -->
-      <div class="container-fluid bk-green text-center">
-        <div class="row">
-          <div class="col-xs-12 mt-70">
-            <h2>About</h2>
-          </div>
-          <div class="col-xs-12 mb-30">
-            stella
-            <!-- protrei fare la stella cosi per inserire le due linee -->
-            <!-- <div class="row">
-                    <div class="col-xs-3 col-xs-offset-2">-</div>
-                    <div class="col-xs-2 ">stella</div>
-                    <div class="col-xs-3">-</div>
-               </div> -->
+      <section id="about" class="gn-pd-80 bk-green">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-xs-12 mb-30">
+              <h2>About</h2>
+            </div>
+            <div class="col-xs-12 info-data mb-15">
+              <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="gn-wrapper-60">
+          <div class="containter-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <p class="text-justify">
+                  Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                  download includes the complete source files including HTML, CSS and
+                  JavaScript as well as optional LESS stylesheets for easy
+                  customization.
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <p class="text-justify">
+                  Wether you're a student looking to showcase your work, a
+                  professional looking to attract clients, or a graphic artist looking
+                  to share your projects, this template is a perfect starting point.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4 col-sm-offset-2">
-            <p class="text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Cupiditate saepe deserunt fugit dolor eius temporibus suscipit
-              similique quasi dignissimos, omnis maxime quos voluptates illum
-              modi, exercitationem laborum? Unde, illo asperiores?
-            </p>
-          </div>
-          <div class="col-xs-12 col-sm-4">
-            <p class="text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Cupiditate saepe deserunt fugit dolor eius temporibus suscipit
-              similique quasi dignissimos, omnis maxime quos voluptates illum
-              modi, exercitationem laborum? Unde, illo asperiores?
-            </p>
-          </div>
-          <div class="col-xs-12 mb-30">Bottone</div>
-        </div>
-      </div>
-
+        <div class="container">
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<button class="btn gn-light-green">
+                <i class="fas fa-download"></i> Download
+              </button>
+						</div>
+					</div>
+				</div>
+      </section>
+<!-- CONTINUA DA QUA -->
       <!-- contact me -->
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-xs-12 mt-70">
-            <h2>Contact Me</h2>
+      <section id="contact" class="gn-pd-80">
+        <div class="container">
+          <div class="row ">
+            <div class="col-xs-12 text-center mb-30">
+              <h2>Contact Me</h2>
+            </div>
+            <div class="col-xs-12 text-center mb-30">
+              stella
+              <!-- protrei fare la stella cosi per inserire le due linee -->
+              <!-- <div class="row">
+                      <div class="col-xs-3 col-xs-offset-2">-</div>
+                      <div class="col-xs-2 ">stella</div>
+                      <div class="col-xs-3">-</div>
+                 </div> -->
+            </div>
           </div>
-          <div class="col-xs-12 mb-30">
-            stella
-            <!-- protrei fare la stella cosi per inserire le due linee -->
-            <!-- <div class="row">
-                    <div class="col-xs-3 col-xs-offset-2">-</div>
-                    <div class="col-xs-2 ">stella</div>
-                    <div class="col-xs-3">-</div>
-               </div> -->
+          <div class="gn-wrapper-60">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Name</div>
+                <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Email</div>
+                <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Phone</div>
+                <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Message</div>
+                <div class="col-xs-10 col-xs-offset-1 mb-30">Bottone</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Name</div>
-          <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Email</div>
-          <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Phone</div>
-          <div class="col-xs-10 col-xs-offset-1 mb-30 bb-sol">Message</div>
-          <div class="col-xs-10 col-xs-offset-1 mb-30">Bottone</div>
-        </div>
-      </div>
+      </section>
       <!--  /MAIN -->
     </main>
 
@@ -189,45 +195,42 @@
       <!-- FOOTER -->
 
       <!-- pre-footer -->
-      <div class="container-fluid bk-blu-light">
+  
+      <div class="container-fluid bk-blu-light gn-pd-80">
         <div class="row text-center">
-          <div class="col-xs-10 col-xs-offset-1 mt-70">
-            <div class="row">
-              <div class="col-sm-12 col-md-4">
-                <h4>Location</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  temporibus eligendi iste reiciendis aut magni minus sapiente
-                  ad, debitis nam, quasi molestias dolorem similique ea
-                  voluptate repellendus, in a cupiditate?
-                </p>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                <h4>Around</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  temporibus eligendi iste reiciendis aut magni minus sapiente
-                  ad, debitis nam, quasi molestias dolorem similique ea
-                  voluptate repellendus, in a cupiditate?
-                </p>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                <h4>About</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  temporibus eligendi iste reiciendis aut magni minus sapiente
-                  ad, debitis nam, quasi molestias dolorem similique ea
-                  voluptate repellendus, in a cupiditate?
-                </p>
-              </div>
-            </div>
+          <div class="col-md-4 text-center">
+            <h4>Location</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              temporibus eligendi iste reiciendis aut magni minus sapiente
+              ad, debitis nam, quasi molestias dolorem similique ea
+              voluptate repellendus, in a cupiditate?
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4>Around</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              temporibus eligendi iste reiciendis aut magni minus sapiente
+              ad, debitis nam, quasi molestias dolorem similique ea
+              voluptate repellendus, in a cupiditate?
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h4>About</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              temporibus eligendi iste reiciendis aut magni minus sapiente
+              ad, debitis nam, quasi molestias dolorem similique ea
+              voluptate repellendus, in a cupiditate?
+            </p>
           </div>
         </div>
       </div>
       <!-- ultima parte footer -->
-      <div class="container-fluid bk-blu hg-70">
-        <div class="row text-center">
-          <div class="col-xs-12">copyright</div>
+      <div class="container bk-blu mb-30">
+        <div class="row">
+          <div class="col-xs-12 text-center">copyright</div>
         </div>
       </div>
     </footer>
